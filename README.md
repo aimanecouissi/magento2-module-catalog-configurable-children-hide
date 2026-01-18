@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/v)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/downloads)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![Latest Unstable Version](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/v/unstable)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![License](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/license)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/require/php)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide)
 
-Are you tired of seeing all the simple products linked to configurables cluttering your Admin product grid? This module hides configurable product children from the Admin grid, making the page cleaner, easier to manage, and focused only on parent products.
+Are you tired of seeing **all the simple products linked to configurables** cluttering your **Admin product grid**? This module hides configurable product children from the Admin grid, making the page cleaner, easier to manage, and focused only on parent products.
 
 ## Installation
 ```bash
