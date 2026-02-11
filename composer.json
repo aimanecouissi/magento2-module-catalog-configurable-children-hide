@@ -1,7 +1,7 @@
 {
     "name": "aimanecouissi/module-catalog-configurable-children-hide",
     "version": "1.0.0",
-    "description": "Hide configurable product children from Admin product grid",
+    "description": "Hide configurable product children from the Admin product grid",
     "type": "magento2-module",
     "require": {
         "php": "~8.3.0||~8.4.0",
