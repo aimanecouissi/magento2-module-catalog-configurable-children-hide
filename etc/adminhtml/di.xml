@@ -9,7 +9,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
     <type name="Magento\Catalog\Ui\DataProvider\Product\ProductDataProvider">
-        <plugin name="aimanecouissi_catalog_configurable_children_catalog_ui_data_provider_product_product_data_provider_plugin"
-                type="AimaneCouissi\CatalogConfigurableChildrenHide\Plugin\Catalog\Ui\DataProvider\Product\ProductDataProviderPlugin"/>
+        <plugin name="aimanecouissi_catalog_product_grid_configurable_children_hide_catalog_ui_data_provider_product_product_data_provider_plugin"
+                type="AimaneCouissi\CatalogProductGridConfigurableChildrenHide\Plugin\Catalog\Ui\DataProvider\Product\ProductDataProviderPlugin"/>
     </type>
 </config>

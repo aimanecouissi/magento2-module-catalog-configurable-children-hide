@@ -1,13 +1,13 @@
-# AimaneCouissi_CatalogConfigurableChildrenHide
+# AimaneCouissi_CatalogProductGridConfigurableChildrenHide
 
-[![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/v)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/downloads)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![License](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/license)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/require/php)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide)
+[![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-configurable-children-hide/v)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-configurable-children-hide) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-configurable-children-hide/downloads)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-configurable-children-hide) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-configurable-children-hide) [![License](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-configurable-children-hide/license)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-configurable-children-hide) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-catalog-product-grid-configurable-children-hide/require/php)](https://packagist.org/packages/aimanecouissi/module-catalog-product-grid-configurable-children-hide)
 
 Hides configurable product children from the **Admin → Catalog → Products** grid, keeping it focused on parent and standalone products.
 
 ## Installation
 ```bash
-composer require aimanecouissi/module-catalog-configurable-children-hide
-bin/magento module:enable AimaneCouissi_CatalogConfigurableChildrenHide
+composer require aimanecouissi/module-catalog-product-grid-configurable-children-hide
+bin/magento module:enable AimaneCouissi_CatalogProductGridConfigurableChildrenHide
 bin/magento setup:upgrade
 bin/magento cache:flush
 ```
@@ -22,8 +22,8 @@ The **Hide Configurable Product Children** setting defaults to `Yes`, so simple 
 
 ## Uninstall
 ```bash
-bin/magento module:disable AimaneCouissi_CatalogConfigurableChildrenHide
-composer remove aimanecouissi/module-catalog-configurable-children-hide
+bin/magento module:disable AimaneCouissi_CatalogProductGridConfigurableChildrenHide
+composer remove aimanecouissi/module-catalog-product-grid-configurable-children-hide
 bin/magento setup:upgrade
 bin/magento cache:flush
 ```

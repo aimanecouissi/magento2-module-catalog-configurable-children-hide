@@ -7,9 +7,9 @@
 
 declare(strict_types=1);
 
-namespace AimaneCouissi\CatalogConfigurableChildrenHide\Plugin\Catalog\Ui\DataProvider\Product;
+namespace AimaneCouissi\CatalogProductGridConfigurableChildrenHide\Plugin\Catalog\Ui\DataProvider\Product;
 
-use AimaneCouissi\CatalogConfigurableChildrenHide\Model\Config;
+use AimaneCouissi\CatalogProductGridConfigurableChildrenHide\Model\Config;
 use Magento\Catalog\Model\ResourceModel\Product\Collection as ProductCollection;
 use Magento\Catalog\Ui\DataProvider\Product\ProductDataProvider;
 
@@ -25,7 +25,7 @@ class ProductDataProviderPlugin
     }
 
     /**
-     * Filters the product collection after loading to hide configurable child products.
+     * Excludes configurable child products from the product collection.
      *
      * @param ProductDataProvider $subject
      * @param ProductCollection $collection

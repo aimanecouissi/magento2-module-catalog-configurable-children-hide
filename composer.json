@@ -1,5 +1,5 @@
 {
-    "name": "aimanecouissi/module-catalog-configurable-children-hide",
+    "name": "aimanecouissi/module-catalog-product-grid-configurable-children-hide",
     "version": "1.0.0",
     "description": "Hide configurable product children from the Admin product grid",
     "type": "magento2-module",
@@ -15,7 +15,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "AimaneCouissi\\CatalogConfigurableChildrenHide\\": ""
+            "AimaneCouissi\\CatalogProductGridConfigurableChildrenHide\\": ""
         }
     }
 }

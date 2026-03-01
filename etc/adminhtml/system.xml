@@ -16,7 +16,7 @@
                        showInDefault="1" canRestore="1">
                     <label>Hide Configurable Product Children</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
-                    <comment>Hide simple products assigned to configurable products in the product grid.</comment>
+                    <comment>Hide simple products assigned to configurable products from the Admin product grid.</comment>
                 </field>
             </group>
         </section>

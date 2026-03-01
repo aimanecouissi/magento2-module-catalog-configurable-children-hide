@@ -7,7 +7,7 @@
 
 declare(strict_types=1);
 
-namespace AimaneCouissi\CatalogConfigurableChildrenHide\Model;
+namespace AimaneCouissi\CatalogProductGridConfigurableChildrenHide\Model;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
