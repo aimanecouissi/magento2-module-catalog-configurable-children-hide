@@ -2,7 +2,7 @@
 
 [![Latest Stable Version](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/v)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![Total Downloads](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/downloads)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![Magento Version Require](https://img.shields.io/badge/magento-2.4.x-E68718)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![License](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/license)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide) [![PHP Version Require](http://poser.pugx.org/aimanecouissi/module-catalog-configurable-children-hide/require/php)](https://packagist.org/packages/aimanecouissi/module-catalog-configurable-children-hide)
 
-Are you tired of seeing **all the simple products linked to configurables** cluttering your **Admin product grid**? This module hides configurable product children from the Admin grid, making the page cleaner, easier to manage, and focused only on parent products.
+Hides configurable product children from the **Admin → Catalog → Products** grid, keeping it focused on parent and standalone products.
 
 ## Installation
 ```bash
@@ -13,11 +13,12 @@ bin/magento cache:flush
 ```
 
 ## Configuration
-- **Stores → Configuration → Catalog → Admin → Hide Configurable Product Children**  
-- Set to **Yes** to hide simple products that belong to configurables from the Admin product grid, or **No** to restore the default Magento grid behavior.
+
+Navigate to **Stores → Configuration → Catalog → Admin**. Set **Hide Configurable Product Children** to `Yes` to exclude simple products linked to configurables from the grid, or `No` to restore default Magento behavior.
 
 ## Usage
-By default, the **Hide Configurable Product Children** setting is **enabled**, so after installation all **simple products assigned to configurable products** are automatically excluded from the Admin product grid. Only parent and standalone products are visible. You can toggle this setting at any time from the Admin configuration.
+
+The **Hide Configurable Product Children** setting defaults to `Yes`, so simple products assigned to configurables are excluded from the **Admin → Catalog → Products** grid immediately after installation. Only parent and standalone products are shown. The setting can be changed at any time from the Admin configuration.
 
 ## Uninstall
 ```bash
@@ -28,4 +29,5 @@ bin/magento cache:flush
 ```
 
 ## License
+
 [MIT](LICENSE)
