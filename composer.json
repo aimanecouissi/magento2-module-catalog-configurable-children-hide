@@ -1,0 +1,41 @@
+{
+    "name": "aimanecouissi/module-catalog-product-grid-configurable-children-hide",
+    "version": "1.0.0",
+    "description": "Hide child products from the Admin product grid",
+    "type": "magento2-module",
+    "keywords": [
+        "magento2",
+        "magento",
+        "adobe-commerce",
+        "catalog",
+        "product-grid",
+        "configurable-children",
+        "hide"
+    ],
+    "homepage": "https://github.com/aimanecouissi/magento2-module-catalog-product-grid-configurable-children-hide",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aimane Couissi",
+            "email": "contact@aimanecouissi.com",
+            "homepage": "https://www.aimanecouissi.com/",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.3",
+        "magento/framework": "103.0.*"
+    },
+    "support": {
+        "issues": "https://github.com/aimanecouissi/magento2-module-catalog-product-grid-configurable-children-hide/issues",
+        "source": "https://github.com/aimanecouissi/magento2-module-catalog-product-grid-configurable-children-hide"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AimaneCouissi\\CatalogProductGridConfigurableChildrenHide\\": ""
+        }
+    }
+}
